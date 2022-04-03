@@ -1265,3 +1265,15 @@ against the appropriate GitGitGadget/Git branch.
 If you're using `git send-email`, you can use it the same way as before, but you
 should generate your diffs from `<topic>..<mybranch>` and base your work on
 `<topic>` instead of `master`.
+
+[[Bonus-useful-tools]]
+== Bonus - useful tools
+
+=== VS Code
+
+To see "how to use VS Code" read contrib/vscode/README.md.
+If you want to try to understand "how git works internally", the debugging
+feature of VS Code can help you. It will not give you all the keys to fully understand it, but
+it can give you an idea of "how the informations travel inside the code".
+It can help you to isolate some parts of code, with this you are able
+to ask more precises question when you are stuck. (See getting-help sections).
