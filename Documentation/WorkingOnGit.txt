@@ -1,0 +1,53 @@
+Guide of the best practices and custom workflow
+===============================================
+:sectanchors:
+
+[[summary]]
+== Summary
+
+This book aims to put together a lot of useful tools, best practices and
+custom workflows that might help the Git developer.
+
+[[author]]
+=== Author
+
+The Git community.
+
+[[table_of_contents]]
+== Table of contents
+
+- <<debuggers>>
+
+[[debuggers]]
+== Using debuggers
+
+You'll probably find it useful to use a debugger to interactively inspect
+your code as it's running.
+
+There's numerous such debuggers, and you may even have one installed
+already along with your development toolchain.
+
+The GNU debugger (gdb) is probably the most common one command-line
+debugger, along with the LLDB debugger (lldb):
+
+==== https://www.sourceware.org/gdb/
+==== https://lldb.llvm.org/
+
+=== GUIs
+
+==== Visual Studio Code (VS Code)
+
+The contrib/vscode/init.sh script creates configuration files that enable
+several valuable VS Code features. See contrib/vscode/README.md for more
+information on using the script.
+
+In particular, this script enables using the VS Code visual debugger, including
+setting breakpoints, logpoints, conditional breakpoints in the editor.
+In addition, it includes the ability to see the call stack, the line of code that
+is executing and more. It is possible to visualize the variables and their values
+and change them during execution.
+
+In sum, using the built-in debugger can be particularly helpful to understand
+how Git works internally.
+It can be used to isolate certain parts of code, with this you may be able to ask
+more precises question when you are stuck.
