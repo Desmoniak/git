@@ -1,0 +1,35 @@
+Tools on GIT
+============
+:sectanchors:
+
+[[summary]]
+== Summary
+
+This document aims to gather tools that have a README and/or scripts in
+the GIT project.
+
+[[author]]
+=== Author
+
+The Git community.
+
+[[table_of_contents]]
+== Table of contents
+
+- <<vscode>>
+- <<emacs>>
+
+[[vscode]]
+=== Visual Studio Code (VS Code)
+
+The contrib/vscode/init.sh script creates configuration files that enable
+several valuable VS Code features. See contrib/vscode/README.md for more
+information on using the script.
+
+In particular, this script enables using the VS Code visual debugger, including
+setting breakpoints, logpoints, conditional breakpoints and more in the editor.
+
+[[emacs]]
+=== Emacs
+
+See contrib/emacs/README for more information.
